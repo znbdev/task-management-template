@@ -318,14 +318,6 @@ function renderBoard() {
 
     col.appendChild(body);
 
-    const addBtn = document.createElement('button');
-    addBtn.className = 'add-btn';
-    addBtn.textContent = '+';
-    addBtn.style.padding = '4px 12px';
-    addBtn.style.fontSize = '18px';
-    addBtn.onclick = () => openCreateModal(status);
-    col.appendChild(addBtn);
-
     board.appendChild(col);
   });
 }
