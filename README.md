@@ -15,23 +15,54 @@
 
 ## 📚 模板文档索引
 
-本项目提供多个针对不同场景优化的任务管理模板，你可以根据实际需求选择合适的模板：
+本项目提供多个针对不同场景优化的任务管理模板，支持中文、日文和英文三个版本，你可以根据实际需求选择合适的模板：
 
-### 📋 可用模板列表
+### 🇨🇳 中文模板 (Chinese Templates)
 
 | 模板名称 | 适用场景 | 文件链接 |
 |:--------|:--------|:---------|
 | **通用任务模板** | 适合多种任务类型（功能开发、Bug修复、技术优化、调研分析、文档编写等），包含优先级管理、目标交付物、变更记录等增强功能 | [universal-task-template.md](template-cn/universal-task-template.md) |
 | **Java 开发模板** | 专为 Java 开发任务设计，包含技术架构、Code Review 清单、部署运维、测试清单等 Java 专属内容 | [java-development-template.md](template-cn/java-development-template.md) |
 | **调查/文档整理模板** | 适用于市场调研、竞品分析、技术调研、用户研究、文档整理等研究型任务，包含信息来源管理、关键发现记录、结论建议等 | [research-documentation-template.md](template-cn/research-documentation-template.md) |
-| **Java 任务示例** | Java 开发任务的实际使用示例（用户认证模块重构），展示如何填写和使用模板 | [java-auth-task-example.md](example/java-auth-task-example.md) |
+| **基础任务模板** | 简洁版任务管理模板，包含基础的工时追踪和风险管理 | [task-template.md](template-cn/task-template.md) |
 
-### 🎯 如何选择模板
-[universal-task-template.md](template-cn/universal-task-template.md)
+### 🇯🇵 日本語テンプレート (Japanese Templates)
+
+| テンプレート名 | 適用シーン | ファイルリンク |
+|:--------|:--------|:---------|
+| **汎用タスクテンプレート** | 多種類のタスクに対応（機能開発、バグ修正、技術最適化、調査分析、ドキュメント作成等）、優先度管理、目標成果物、変更履歴などの強化機能を含む | [universal-task-template.md](template-jp/universal-task-template.md) |
+| **Java 開発テンプレート** | Java 開発タスク専用、技術アーキテクチャ、Code Review チェックリスト、デプロイ運用、テストチェックリストなど Java 固有の内容を含む | [java-development-template.md](template-jp/java-development-template.md) |
+| **調査/ドキュメント整理テンプレート** | 市場調査、競合分析、技術調査、ユーザー研究、ドキュメント整理などの研究タスクに適用、情報源管理、重要発見記録、結論提案などを含む | [research-documentation-template.md](template-jp/research-documentation-template.md) |
+| **基本タスクテンプレート** | シンプル版タスク管理テンプレート、基本的な工数追跡とリスク管理を含む | [task-template.md](template-jp/task-template.md) |
+
+### 🇺🇸 English Templates
+
+| Template Name | Applicable Scenarios | File Link |
+|:--------|:--------|:---------|
+| **Universal Task Template** | Suitable for various task types (feature development, bug fixes, technical optimization, research analysis, documentation, etc.), includes priority management, deliverables, change history and other enhanced features | [universal-task-template.md](template-en/universal-task-template.md) |
+| **Java Development Template** | Designed specifically for Java development tasks, includes technical architecture, Code Review checklist, deployment operations, testing checklist and other Java-specific content | [java-development-template.md](template-en/java-development-template.md) |
+| **Research/Documentation Template** | Suitable for market research, competitive analysis, technical research, user research, documentation and other research tasks, includes information source management, key findings records, conclusions and recommendations | [research-documentation-template.md](template-en/research-documentation-template.md) |
+| **Basic Task Template** | Simplified task management template, includes basic effort tracking and risk management | [task-template.md](template-en/task-template.md) |
+
+### 🎯 如何选择模板 / テンプレートの選び方 / How to Choose Templates
+
+#### 中文用户
 * **日常通用任务** → 使用 [通用任务模板](template-cn/universal-task-template.md)
 * **Java 项目开发** → 使用 [Java 开发模板](template-cn/java-development-template.md)
 * **调研分析/文档整理** → 使用 [调查/文档整理模板](template-cn/research-documentation-template.md)
-* **想看看实际效果** → 参考 [Java 任务示例](example/java-auth-task-example.md)
+* **简洁需求** → 使用 [基础任务模板](template-cn/task-template.md)
+
+#### 日本語ユーザー
+* **日常汎用タスク** → [汎用タスクテンプレート](template-jp/universal-task-template.md) を使用
+* **Java プロジェクト開発** → [Java 開発テンプレート](template-jp/java-development-template.md) を使用
+* **調査分析/ドキュメント整理** → [調査/ドキュメント整理テンプレート](template-jp/research-documentation-template.md) を使用
+* **シンプル要件** → [基本タスクテンプレート](template-jp/task-template.md) を使用
+
+#### English Users
+* **General Daily Tasks** → Use [Universal Task Template](template-en/universal-task-template.md)
+* **Java Project Development** → Use [Java Development Template](template-en/java-development-template.md)
+* **Research Analysis/Documentation** → Use [Research/Documentation Template](template-en/research-documentation-template.md)
+* **Simple Requirements** → Use [Basic Task Template](template-en/task-template.md)
 
 ### 💡 使用建议
 
